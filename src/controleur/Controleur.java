@@ -148,7 +148,7 @@ public class Controleur implements ActionListener,modele.Constantes{
 				}
 				
 				else{
-					JOptionPane.showMessageDialog(chPanelCentre, "Ce nom de fichier est d�j� pris. Veuillez donner un autre nom.");
+					JOptionPane.showMessageDialog(chPanelCentre, "Ce nom de fichier est deja pris. Veuillez donner un autre nom.");
 					chPanelSud.getChTexte().setText(new String());
 				}
 			}
