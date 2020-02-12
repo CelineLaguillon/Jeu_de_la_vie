@@ -101,7 +101,7 @@ public class FenetreMere extends JFrame implements modele.Constantes{
 			chMenus[0].add(item);
 		}
 		
-		File repertoire = new File("../exemples");
+		File repertoire = new File("exemples");
 		chIntitulesFichiers = repertoire.list();
 		for (int i = 0 ; i < chIntitulesFichiers.length ; i++){
 			JMenuItem item = new JMenuItem(chIntitulesFichiers[i], chIntitulesFichiers[i].charAt(0));
