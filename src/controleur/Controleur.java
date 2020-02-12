@@ -210,7 +210,7 @@ public class Controleur implements ActionListener,modele.Constantes{
 		}
 		
 		else if(parEvenement.getActionCommand().equals(NOM_ITEM_MENU[3])) {
-			int saisi = JOptionPane.showConfirmDialog(chFenetreMere, "etes-vous sur de votre choix ?", "Dialogue de confirmation", JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
+			int saisi = JOptionPane.showConfirmDialog(chFenetreMere, "Etes-vous sur de votre choix ?", "Dialogue de confirmation", JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
 			
 			if(saisi == JOptionPane.OK_OPTION) {
 				System.exit(1);
